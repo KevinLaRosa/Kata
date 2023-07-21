@@ -1,6 +1,6 @@
 apply plugin: "com.android.application"
 apply plugin: "com.facebook.react"
-
+apply plugin: 'kotlin-android'
 /**
  * This is the configuration block to customize your React Native Android app.
  * By default you don't need to apply any configuration, just uncomment the lines you need.
@@ -105,7 +105,9 @@ android {
 
 dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.20"
     implementation("com.facebook.react:react-android")
+    implementation 'org.testng:testng:6.9.6'
 
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}")
     debugImplementation("com.facebook.flipper:flipper-network-plugin:${FLIPPER_VERSION}") {
@@ -118,6 +120,8 @@ dependencies {
     } else {
         implementation jscFlavor
     }
+    debugImplementation "org.jetbrains.kotlin:kotlin-test:1.7.20"
+    debugImplementation "org.jetbrains.kotlin:kotlin-test-junit:1.7.20"
 }
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
