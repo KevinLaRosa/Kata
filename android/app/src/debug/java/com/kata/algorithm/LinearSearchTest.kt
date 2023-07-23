@@ -1,4 +1,6 @@
-import com.kata.LinearSearch
+package com.kata.algorithm
+
+import com.kata.algorithm.LinearSearch
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

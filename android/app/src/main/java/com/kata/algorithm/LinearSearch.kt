@@ -1,4 +1,4 @@
-package com.kata
+package com.kata.algorithm
 
 class LinearSearch {
     companion object {
