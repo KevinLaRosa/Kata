@@ -10,4 +10,3 @@ test('binary search array', function () {
   expect(binarySearch(foo, 1)).toEqual(true);
   expect(binarySearch(foo, 0)).toEqual(false);
 });
-//https://github.com/ThePrimeagen/kata-machine/blob/master/src/__tests__/LinearSearchList.ts

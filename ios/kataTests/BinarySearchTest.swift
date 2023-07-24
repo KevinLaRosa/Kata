@@ -18,7 +18,7 @@ final class BinarySearchTest: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
+  
     func testExample() throws {
       XCTAssertTrue(BinarySearch.search(orderedArray: foo, numberSearch: 69))
       XCTAssertFalse(BinarySearch.search(orderedArray: foo, numberSearch: 1336))

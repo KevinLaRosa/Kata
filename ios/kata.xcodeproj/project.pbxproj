@@ -18,6 +18,8 @@
 		D83228502A6B3443000B7818 /* LinearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D832284D2A6B3256000B7818 /* LinearSearch.swift */; };
 		D83228532A6B364C000B7818 /* BinarySearchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83228522A6B364C000B7818 /* BinarySearchTest.swift */; };
 		D83228552A6B3673000B7818 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83228542A6B3673000B7818 /* BinarySearch.swift */; };
+		D83228572A6E4E72000B7818 /* BubbleSortTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83228562A6E4E72000B7818 /* BubbleSortTest.swift */; };
+		D83228592A6E4EC9000B7818 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83228582A6E4EC9000B7818 /* BubbleSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		D832284D2A6B3256000B7818 /* LinearSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearSearch.swift; sourceTree = "<group>"; };
 		D83228522A6B364C000B7818 /* BinarySearchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTest.swift; sourceTree = "<group>"; };
 		D83228542A6B3673000B7818 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		D83228562A6E4E72000B7818 /* BubbleSortTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSortTest.swift; sourceTree = "<group>"; };
+		D83228582A6E4EC9000B7818 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -164,6 +168,7 @@
 			children = (
 				D83228482A6B3104000B7818 /* LinearSearchTest.swift */,
 				D83228522A6B364C000B7818 /* BinarySearchTest.swift */,
+				D83228562A6E4E72000B7818 /* BubbleSortTest.swift */,
 			);
 			name = Algorithm;
 			sourceTree = "<group>";
@@ -174,6 +179,7 @@
 				D832284D2A6B3256000B7818 /* LinearSearch.swift */,
 				D832284C2A6B3256000B7818 /* kata-Bridging-Header.h */,
 				D83228542A6B3673000B7818 /* BinarySearch.swift */,
+				D83228582A6E4EC9000B7818 /* BubbleSort.swift */,
 			);
 			name = Algorithm;
 			sourceTree = "<group>";
@@ -434,10 +440,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83228572A6E4E72000B7818 /* BubbleSortTest.swift in Sources */,
 				D83228552A6B3673000B7818 /* BinarySearch.swift in Sources */,
 				D83228502A6B3443000B7818 /* LinearSearch.swift in Sources */,
 				D83228532A6B364C000B7818 /* BinarySearchTest.swift in Sources */,
 				D83228492A6B3104000B7818 /* LinearSearchTest.swift in Sources */,
+				D83228592A6E4EC9000B7818 /* BubbleSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
